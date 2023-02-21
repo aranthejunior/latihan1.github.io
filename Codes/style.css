@@ -1,0 +1,153 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  a { color: inherit; } 
+
+body {
+    position: relative;
+    margin:0 !important;
+  }
+
+.Navbar_Brand{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.nav-margin{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.section-1 h1{
+    font-weight: 700;
+}
+
+.centering{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ninja-img{
+width: 20%;
+height: 45%;
+}
+
+.section-aboutme{
+    background-color: #f4f4f4;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.section-margin{
+    /* margin-top: 10px; */
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+/* .section-proyekcontoh{
+
+} */
+.proyek-image{
+    width: 65%;
+    /* height: 50%; */
+}
+
+.section-proyekcontoh li{
+  text-align: center;
+  list-style-type:none;
+}
+
+.section-contact{
+    background-color: #f4f4f4;
+}
+
+.section-contact .centering{
+    flex-direction: column;
+}
+
+.dot-color{
+    color: yellow;
+}
+
+.section-1{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.section-contact input{
+    margin-bottom: 1em;
+}
+
+.section-contact textarea{
+    margin-bottom: 1em;
+}
+
+.section-contact h4{
+    margin-top: 3em;
+    margin-bottom: 1.7em;
+}
+
+.section-proyekcontoh h4{
+    margin-top: 3em;
+    margin-bottom: 1.7em;
+}
+
+.section-aboutme h4{
+    margin-bottom: 1.7em;
+}
+
+footer{
+    background-color: #7c7d82;
+    padding-top:2em;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+footer h4{
+    color:white;
+    margin:0 !important;
+    letter-spacing: 5px;
+}
+
+footer li{
+    color: white;
+}
+
+.section-contact button{
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 600px) {
+.section-aboutme p {
+    font-size: 13px;
+ }
+
+.section-aboutme h4{
+    margin-bottom: 0.8em;
+   }
+
+.section-contact input{
+    width: 90vw;
+}
+.section-contact textarea{
+    width: 90vw;
+}
+.section-contact button{
+    width: 90vw;
+}
+.section-contact .row{
+    justify-content: center;
+}
+.section-proyekcontoh ul .centering{
+    flex-direction: column !important;
+}
+  }
